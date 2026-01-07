@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** | Bea Smith |
+| **Preferred Name** | Bea |
+| **Pronouns** | She/Her |
+| **EWU Email** | bsmith152@ewu.edu |
 
 ---
 
@@ -22,18 +22,18 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **GitHub** | `https://github.com/beasmith152` | ✅ |
+| **Figma** | `@bea` | ✅ |
+| **CodePen** | `https://codepen.io/Beasmith24` | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
-- [ ] Face visible (helps me learn names!)
+- [✅ ] Same photo uploaded to GitHub, Figma, and CodePen
+- [✅ ] Professional or at least *intentional*
+- [✅ ] Face visible (helps me learn names!)
 
 ---
 
@@ -41,9 +41,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
-| Expires | <!-- Date --> |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
+| Expires | unknown |
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -53,9 +53,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
-| Joined Course Team | ⏳ |
-| Expires | <!-- Date --> |
+| Education Plan Active | ✅ |
+| Joined Course Team | ✅ |
+| Expires | unknown |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
 
@@ -63,12 +63,8 @@ Update it once, keep it consistent everywhere.
 
 ## About Me
 
-*Optional: A sentence or two about your design interests. This could seed your eventual portfolio bio.*
 
-<!-- 
-Example: "I'm drawn to motion design and systems thinking. 
-Currently exploring how interaction design can feel more human."
--->
+To truly understand my style you have to meet me. I aspire to design album covers and F1 liveries. I have a strong suit in web development too that I am always working on. I have made it my Mission to bring more aesthetic to the communities and places which I visit.
 
 ---
 
