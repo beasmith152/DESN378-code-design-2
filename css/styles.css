@@ -25,12 +25,12 @@
 body {
   font-family: system-ui, -apple-system, sans-serif;
   line-height: 1.6;
-  max-width: 800px;
+  background-image: url('/assets/images/bg.gif');
+  background-size: cover;
   margin: 0 auto;
   padding: 2rem;
   color: #ffffff;
-  background-image: url("images/bg.gif");
-  background-size: cover;
+ 
 }
 
 body h1{
@@ -45,6 +45,11 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  width: 100vh;
+
+  ;
 }
 
 h1 {
