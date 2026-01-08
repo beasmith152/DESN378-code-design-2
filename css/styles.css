@@ -28,34 +28,32 @@ body {
   margin: 0 auto;
   padding: 2rem;
   color: white;
-  background-image: url("/workspaces/DESN378-code-design-2/assets/images/bg.gif");
+  background-image: url("https://64.media.tumblr.com/ab19da319ff39b46063e14f678fd3b42/tumblr_p2wfd4WvXO1uesmlzo3_1280.gifv");
   background-size: cover;
   background-position: center; 
   height: 100vh; 
   width: 100vw;
 }
 
-.indexbod {
+body {
   font-family: system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   color: white;
-  background-image: url("/workspaces/DESN378-code-design-2/assets/images/bg.gif");
+  background-image: url("images/bg.gif");
   background-size: cover;
   background-position: center; 
-  height: 100vh; 
-  width: 100vw;
 }
 
-.indexbod h1{
+body h1{
   font-family: "Bebas Neue", sans-serif;
   font-size: 3rem;
   color:white
 }
 
-.indexbod p{
+main {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
