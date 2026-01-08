@@ -31,6 +31,12 @@ body {
   background: #fafafa;
 }
 
+body h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
 main {
   min-height: 80vh;
   display: flex;
@@ -38,12 +44,6 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-main h1{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 h1 {
