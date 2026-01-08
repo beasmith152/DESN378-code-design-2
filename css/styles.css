@@ -29,7 +29,8 @@ body {
   margin: 0 auto;
   padding: 2rem;
   color: #ffffff;
-  background-image: url("assets/images/bg.gif");
+  background-image: URL("images/bg.gif");
+  background-size: cover;
 }
 
 body h1{
