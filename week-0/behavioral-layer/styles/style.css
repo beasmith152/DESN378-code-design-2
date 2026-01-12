@@ -26,9 +26,6 @@ body {
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -51,6 +48,7 @@ button {
   font-size: 16px;
   display: block;
   border-color: rgba(255, 245, 73, 0.39);
+  margin-left: 300px;
   color: white;
 }
 
