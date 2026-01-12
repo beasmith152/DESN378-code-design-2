@@ -16,13 +16,23 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 | # | Project | Focus | Status |
 |---|---------|-------|--------|
+| 0 | Behavioral Layer | Tutorial on Image, plus name switch | ✅ |
 | 1 | The System | Design tokens + theme switching | 🔲 |
 
 ---
 
 ## Learning Log
+🔗 **[Learning Log] https://beasmith152.github.io/DESN378-code-design-2**
 
 Update this section each week with observations, breakthroughs, and questions.
+### Week 0: The Behavioral Layer
+  SUMMARY:
+  This file/exercise does two things:
+
+  1. The image changer in this manner allows the user to click on the image and have it change to a different image when clicked through the function used above. Its only const is the source, and it's else is conditionally set to the original image.
+  2. The welcome message is standardly set through local storage of what name was used last in case no input is set. Second, if an name is set it changes the content of the h1 where it is positioned to that name. This is all done through the button. The null value code ensures that a name is input before the next step is taken to eliminate possibiltiy of a null. 
+​
+  The key pattern I learned: Originally, when setting up week 0, I had trouble with the main.js connecting to the html for this particular exercise due to a main.js existing within my structure due to the original page I already began developing. Therefore, I had to change it's path and name to differentiate to main0.js syntax for the week. However, it did work. Same thing with eliminating the const for the initial heading as the const sets a variable making the third exercise not work entirely.
 
 ### Week 1: Systems That Respond
 *Coming soon...*
@@ -33,7 +43,7 @@ Update this section each week with observations, breakthroughs, and questions.
 ---
 
 ## Quick Links
-
+-🔗 **[Learning Log] https://beasmith152.github.io/DESN378-code-design-2**
 - [My Profile](PROFILE.md)
 - [Labs](labs/)
 
