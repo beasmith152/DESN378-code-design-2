@@ -28,14 +28,14 @@ body {
   background-image: url('../assets/images/bg.gif');
   background-size: cover;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   color: #ffffff;
  
 }
 
 body h1{
   font-family: "Bebas Neue", sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 main {
@@ -55,13 +55,17 @@ main {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   width: 100vh;
+  padding-top: 2rem;
 }
+.week-links {
+  width: 100%;
+} 
 
 .main2 h1{
   font-family: "Bebas Neue", sans-serif;
@@ -90,12 +94,13 @@ main {
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: #ffffff;
+  font: 1.25em sans-serif;
 }
 
 code {
