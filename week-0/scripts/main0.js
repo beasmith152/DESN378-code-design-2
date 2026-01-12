@@ -3,6 +3,8 @@
 // Update the text content of the <h1>
 //myHeading.textContent = "Hello world!";
 
+//the code above is part of the initial tutorial and has been commented out. Had to comment out due to CONST for myheading for step 7 of the assignment.
+
 // image portion of assignment
 
 const myImage = document.querySelector("img");
@@ -16,7 +18,7 @@ myImage.addEventListener("click", () => {
   }
 });
 
-//button portion of assignment
+//button portion of assignment for changing the user and the heading.
 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
