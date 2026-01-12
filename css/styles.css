@@ -45,12 +45,13 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
   background-size: cover;
   width: 100vh;
 }
 
-.main2{
+.main2 {
+  float:right;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -67,6 +68,21 @@ main {
   font-size: 3rem;
 }
 
+.main2 ul{
+  list-style-type: none;
+  padding-left: 0;
+} 
+
+.main2 a{
+  color: #013860;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: aquamarine;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -78,7 +94,7 @@ p {
 }
 
 code {
-  background: #e5e5e5;
+  background: #000000;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-family: 'SF Mono', Consolas, monospace;
