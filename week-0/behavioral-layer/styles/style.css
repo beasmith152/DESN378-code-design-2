@@ -17,15 +17,14 @@ p, li {
 
 
 html {
-  background-color: #00539F;
+  background-color: #ff9500b8;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #ff9500b8;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
 }
 
 h1 {
@@ -48,7 +47,7 @@ button {
   font-size: 16px;
   display: block;
   border-color: rgba(255, 245, 73, 0.39);
-  margin-left:300px;
+  margin: 0 auto;
 }
 
 button:hover {
