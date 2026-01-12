@@ -48,8 +48,23 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   width: 100vh;
+}
 
-  ;
+.main2{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  width: 100vh;
+}
+
+.main2 h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
 }
 
 h1 {
