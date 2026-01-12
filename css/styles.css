@@ -83,6 +83,11 @@ main {
   border-radius: 8px;
 }
 
+.main2 a:hover{
+  background-color: #008484;
+  color:white;
+} 
+
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
