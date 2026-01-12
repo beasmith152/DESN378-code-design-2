@@ -1,6 +1,6 @@
 // ============================================
 // TUTORIAL 0-1: CODEDEX CONSOLE FUNDAMENTALS
-// Student: Bea S
+// Student: Bea Smith
 // Date: 1/11/26
 // ============================================
 ​
