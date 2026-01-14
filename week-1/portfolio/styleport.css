@@ -1,0 +1,849 @@
+/* standard screen sizing */
+
+
+html {
+    height:100%;
+    overflow:hidden;
+    z-index: 0;
+}
+.custom{
+  background: black;
+  background-image:url("images/IMG_3579.jpg");
+  background-size: cover;
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  z-index: 1;
+  overflow:auto;
+}
+.backgroundoverlaycustom{
+  background-color: black;
+  opacity: 0.5;
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  position: fixed;
+  overflow:auto;
+  z-index: 2;
+}
+body {
+    background: black;
+    background-image:url("images/IMG_3579.jpg");
+    background-size: cover;
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    z-index: 1;
+}
+.backgroundoverlay{
+    background-color: black;
+    opacity: 0.5;
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+    position: absolute;
+    z-index: 2;
+}
+
+/* Site Hero  */
+
+.SiteHero{
+    position:relative;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:1em;
+    font-size: 5em;
+    height: calc(100vh - 5em); /* Full height minus the height of the nav */
+    padding: 0; /* Add some padding for smaller screens */
+    z-index: 5; /* Higher than .BackgroundOverlay */
+}
+.siteherobea{
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color:#f542e3;
+  margin: 0 10px; /* Add horizontal space */
+  padding:0;
+}
+.SiteSubHero{
+    position:relative;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top:-3em;
+    font-size: 3em;
+    z-index: 5; /* Higher than .BackgroundOverlay */
+}
+
+.SiteSubHeroLink a{
+  position:relative;
+  text-decoration:none;
+  text-align: center;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  z-index: 5; /* Higher than .BackgroundOverlay */
+  
+}
+.SiteSubHeroLink a:hover{
+  color:#f542e3;
+}
+
+/* menu */
+
+#Nav{
+    justify-content: center;
+    display: flex;
+    width:100%;
+    height: 5em;
+    background-color: black;
+    opacity: 0.8;
+    margin:0;
+    padding:0;
+    border:none;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+}
+
+.navlink{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    text-decoration:uppercase;
+    margin-right:4em;
+    height: 3em;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 11;
+
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  z-index: 12;
+}
+.navlink:hover{
+    color:#f542e3;
+}
+.navlink img{
+        width:3em;
+        height:auto;
+        justify-content: center;
+        margin:0;
+        padding:0;
+        z-index: 13;
+    }
+    .hamburger {
+        display: none; /* Hide by default */
+        font-size: 2em;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        z-index: 9;
+    }
+
+
+    /* Highest z index is 13  */
+
+/* about me page */
+#aboutme{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+  color:white;
+  margin-top: 6em;
+}
+
+#aboutme table{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  color:white;
+  
+}
+/* #aboutme td{
+  width:40em;
+  height:auto;
+  margin:0;
+} */
+
+.columnone{
+  width:40em;
+  height:auto;
+  margin:0;
+}
+
+.self{
+  width:20em;
+  margin-left:10em;
+}
+.aboutself{
+  
+  align-items: center;
+  margin: 2em;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+    font-size: 4.5em;
+    padding:0;
+    margin:0;
+    color:#f542e3;
+
+}
+.rightme{
+  margin: 2em;
+ align-items: left;
+  width:40em;
+  height:auto;
+    
+}
+.aboutmetext{
+  margin-top:1em;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+/* my work page */
+
+#work{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 8;
+    color:#f542e3;
+    margin-top: 5em;
+}
+
+.workone{
+  width:40em;
+  height:auto;
+  margin:0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;;
+
+}
+
+.workone embed{
+  width:30em;
+  height: 20em;
+  margin-top:0.5em;
+  border: none;
+}
+
+.worktwo{
+  width:40em;
+  height:auto;
+  margin:0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+.worktwoembed{
+  width:40em;
+  height:auto;
+  margin:0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.worktwoembed embed{
+  width:30em;
+  height: 20em;
+  margin-top:0.5em;
+  border: none;
+}
+
+
+    /* Mobile Menu */
+/* phone adaptation */
+
+
+
+    @media (max-width: 768px) {
+
+      .backgroundoverlaycustom{
+        background-color: black;
+        opacity: 0.5;
+        height:100%;
+        width:100%;
+        padding:0;
+        margin:0;
+        position: absolute;
+        overflow:auto;
+        z-index: 2;
+      }
+
+      #Nav {
+            flex-direction: column;
+            height: auto;
+            position: relative;
+            z-index: 10;
+        }
+        .navlinks {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: black;
+            position: absolute;
+            top: 5em;
+            left: 0;
+            z-index: 12;
+        }
+    
+        .navlink {
+            margin: 1em 0;
+            z-index: 12;
+        }
+    
+        .hamburger {
+            display: block;
+           z-index: 13;
+        }
+        /* smaller site hero */
+        .SiteHero {
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;;
+    height: calc(100vh - 5em); /* Full height minus the height of the nav */
+    padding: 0; /* Add some padding for smaller screens */
+    z-index: 5; /* Higher than .BackgroundOverlay */
+    position: relative;
+    margin-top:-1em;
+        }
+        .SiteSubHero{
+          position:relative;
+          text-align: center;
+          color:white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "Barlow Condensed", sans-serif;
+          font-weight: 400;
+          font-style: italic;
+          margin-top:-6em;
+          font-size: 2em;
+          z-index: 5; /* Higher than .BackgroundOverlay */
+      }
+
+      .SiteSubHeroLink a{
+        position:relative;
+        text-decoration:none;
+        text-align: center;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1em;
+        z-index: 5; /* Higher than .BackgroundOverlay */
+        margin-top:-.5em;
+        
+      }
+
+/* Small about me page */
+
+      #aboutme{
+        display:flex;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        z-index: 8;
+        color:white;
+        margin-top: 4.5em;
+      }
+      
+      #aboutme table{
+        display:flex;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        z-index: 8;
+        color:white;
+        margin-top: 3em;
+        position: relative;
+      }
+      /* #aboutme td{
+        width:40em;
+        height:auto;
+        margin:0;
+        padding:0;
+      } */
+      
+      
+      .self{
+        width:11em;
+        margin-left:.5em;
+        padding:0;
+        position: relative;
+        z-index: 8; 
+      }
+      .aboutself{
+        
+        align-items: left;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+          font-size: 2em;
+          padding:0;
+          margin-top:-1.5em;
+          color:#f542e3;
+          position: relative;
+          z-index: 8;
+      
+      }
+      .rightme td{
+        position: relative;
+        margin-right: 2em;
+       align-items: left;
+        padding-right:1em;
+          z-index: 8;
+      }
+      .columnone{
+        width:20em;
+        height:auto;
+        position: relative;
+        z-index: 8;
+      }
+      .aboutmetext{
+        margin-top:0em;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1em;
+      }
+
+      /* My Work Page mobile */
+        
+      #work{
+        overflow-y: scroll;
+        overflow-x: none;
+        height:100%;
+        width:auto;
+      }
+
+    #work table {
+        display: block;
+        width: 100%;
+        position: relative;
+        z-index: 8;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10em;
+    }
+
+    #work tr {
+        margin-bottom: 0;
+        display:block;
+    }
+
+    #work td {
+        text-align: center;
+        padding:0;
+        margin:0;
+        border: none;
+        display: block;
+        justify-content: center;
+
+    }
+    #work .worktwo{
+      display:none;
+    }
+
+    #work embed{
+      width:15em;
+      height: 8em;
+      margin-top:0.5em;
+      border: none;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      margin-left:12.5em;
+    }
+
+    #work td:before {
+        content: attr(data-label);
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        display: block;
+        margin-bottom: 5px;
+        margin-top:.5em;
+    }
+
+
+    }
+/* tv lower 1080 adaptation */
+@media (min-width: 1920px){
+  .SiteSubHero{
+    position:relative;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top:-5em;
+    font-size: 3em;
+    z-index: 5; /* Higher than .BackgroundOverlay */
+}
+/* larger screen adaptation */
+
+    @media (min-width: 3200px)    {
+
+      .SiteHero {
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8em;;
+        height: calc(100vh - 5em); /* Full height minus the height of the nav */
+        padding: 0; /* Add some padding for smaller screens */
+        z-index: 5; /* Higher than .BackgroundOverlay */
+        position: relative;
+        margin-top:1em;
+            }
+            .SiteSubHero{
+              position:relative;
+              text-align: center;
+              color:white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: "Barlow Condensed", sans-serif;
+              font-weight: 400;
+              font-style: italic;
+              margin-top:-4em;
+              font-size: 4em;
+              z-index: 5; /* Higher than .BackgroundOverlay */
+          }
+    
+          .SiteSubHeroLink a{
+            position:relative;
+            text-decoration:none;
+            text-align: center;
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 2em;
+            z-index: 5; /* Higher than .BackgroundOverlay */
+            margin-top:0em;
+
+            /* Imac and larger screen about me page */
+    
+            #aboutme{
+              display:flex;
+              position:relative;
+              justify-content: center;
+              align-items: center;
+              z-index: 8;
+              color:white;
+              margin-top: 8em;
+            }
+            
+            #aboutme table{
+              display:flex;
+              position:relative;
+              justify-content: center;
+              align-items: center;
+              z-index: 8;
+              color:white;
+              margin-top: 5em;
+            }
+            
+            .columnone{
+              width:40em;
+              height:auto;
+              margin:0;
+            }
+            
+            .self{
+              width:25em;
+              margin-left:10em;
+            }
+            .aboutself{
+              
+              align-items: center;
+              margin: 2em;
+              font-family: "Barlow Condensed", sans-serif;
+              font-weight: 800;
+              font-style: italic;
+                font-size: 4.5em;
+                padding:0;
+                margin:0;
+                color:#f542e3;
+            
+            }
+            .rightme{
+              margin: 2em;
+             align-items: left;
+              width:40em;
+              height:auto;
+                
+            }
+            .aboutmetext{
+              margin-top:1em;
+              font-family: "Barlow Condensed", sans-serif;
+              font-weight: 200;
+              font-style: normal;
+              font-size: 1.5em;
+            }
+
+
+    /* my work page for IMac*/
+
+#work{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+  color:#f542e3;
+  margin-top: 2em;
+}
+
+.workone{
+width:40em;
+height:auto;
+margin:0;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 500;
+font-style: italic;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.workone embed{
+width:30em;
+height: 20em;
+margin-top:0.5em;
+border: none;
+}
+
+.worktwo{
+width:40em;
+height:auto;
+margin:0;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 500;
+font-style: italic;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.worktwoembed embed{
+width:30em;
+height: 20em;
+margin-top:0.5em;
+border: none;
+}
+
+.worktwoembed{
+  width:40em;
+  height:auto;
+  margin:0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5em;
+}
+    
+    }
+
+    /* TV screen sizing  */
+    @media (min-width: 3800px){
+      .SiteSubHero{
+        position:relative;
+        text-align: center;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        margin-top:-8.5em;
+        font-size: 4em;
+        z-index: 5; /* Higher than .BackgroundOverlay */
+    }
+
+
+    }
+
+
+
+
+    /* font styles */
+    
+    /* .barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-extralight 
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-condensed-semibold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-condensed-extralight-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-regular-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-condensed-semibold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-condensed-extrabold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+} 
+  */
