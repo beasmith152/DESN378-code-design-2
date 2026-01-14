@@ -76,6 +76,7 @@ main {
 main ul{
   list-style-type: none;
   padding-left: 0;
+  list-style: none;
 } 
 
 main a{
@@ -86,6 +87,7 @@ main a{
   background-color: aquamarine;
   padding: 0.5rem;
   border-radius: 8px;
+  margin-bottom: 1.5em;
 }
 
 main a:hover{
