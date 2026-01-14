@@ -72,6 +72,23 @@ main {
   font-size: 3rem;
 }
 
+// Styling for the list of links in main for portfolio
+.main ul{
+  list-style-type: none;
+  padding-left: 0;
+} 
+
+.main a{
+  color: #013860;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: aquamarine;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+// Styling for the list of links in main2
 .main2 ul{
   list-style-type: none;
   padding-left: 0;
