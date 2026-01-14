@@ -79,6 +79,11 @@ main ul{
   list-style: none;
 } 
 
+main li{
+  list-style: none;
+  margin-bottom: 1.5em;
+}
+
 main a{
   color: #013860;
   text-decoration: none;
@@ -87,7 +92,6 @@ main a{
   background-color: aquamarine;
   padding: 0.5rem;
   border-radius: 8px;
-  margin-bottom: 1.5em;
 }
 
 main a:hover{
@@ -97,9 +101,13 @@ main a:hover{
 
 // Styling for the list of links in main2
 .main2 ul{
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
 } 
+.main2 li{
+  list-style: none;
+  margin-bottom: 1.5em; 
+}
 
 .main2 a{
   color: #013860;
