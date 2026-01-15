@@ -5,6 +5,26 @@
 
 ---
 
+<div align="center">
+
+[![header](https://t3.ftcdn.net/jpg/03/32/06/44/360_F_332064467_MFlAejdbOJvsejoxMAYiBiizaXqq2cqE.jpg)](https://beasmith152.github.io/page2.html)
+
+</div>
+
+<div align="center">
+
+# Created by Bea Smith. 
+## Dev Portfolio
+### *This is my Web App Development portfolio. Enjoy
+
+##  Resources Used 
+
+ - Google Fonts (https://fonts.google.com/)
+
+### Responsive Design
+
+</div>
+
 ## About This Repository
 
 This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design 2** (or in the future, **Web Design + Code 2**) at Eastern Washington University. **The question this course asks:** How should things behave? In DESN 368, I learned how to make things look right. Here, I'm learning how to make things behave right — treating code as a design material with properties, behaviors, and constraints, just like paint, paper, or clay. Throughout the quarter, I'll work with four digital materials: CSS systems, SVG, animation libraries, and generative code — learning how each responds to manipulation and what each makes possible. Unlike courses focused on user research or backend engineering, this one asks: How does it feel? By the end, this repo will become my portfolio.
