@@ -9,7 +9,7 @@
 console.log('Portfolio loaded');
 
 // Week 0: Hello World
- alert("Welcome to Bea's JS Learning Log for WIN 26'");
+// alert("Welcome to Bea's JS Learning Log for WIN 26'");
 
 // Week 1: You'll add theme toggle code here
 // Week 2: You'll add localStorage persistence here
