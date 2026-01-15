@@ -82,6 +82,7 @@ main ul{
   list-style-type: none;
   padding-left: 0;
   list-style: none;
+  padding-top: 1.5em;
 } 
 
 main li{
