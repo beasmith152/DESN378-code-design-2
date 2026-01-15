@@ -21,6 +21,12 @@
   font-style: normal;
 }
 
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
@@ -48,6 +54,11 @@ main {
   background-color: transparent;
   background-size: cover;
   width: 100vh;
+}
+
+main p{
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
 }
 
 .main2 {
