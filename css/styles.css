@@ -74,6 +74,10 @@ main {
 }
 
 // Styling for the list of links in main for portfolio
+main code{
+  padding-bottom:1em;
+}
+
 main ul{
   list-style-type: none;
   padding-left: 0;
