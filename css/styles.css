@@ -92,6 +92,7 @@ main a{
   background-color: aquamarine;
   padding: 0.5rem;
   border-radius: 8px;
+  padding: 20px;
 }
 
 main a:hover{
@@ -117,6 +118,7 @@ main a:hover{
   background-color: aquamarine;
   padding: 0.5rem;
   border-radius: 8px;
+  padding: 20px;
 }
 
 .main2 a:hover{
