@@ -16,18 +16,25 @@ const captions = [
 let currentStep = 0;
 ​
 // Listen for clicks
+
 image.addEventListener('click', function() {
   currentStep++;
-​
+  console.log('Image clicked. Current step:', currentStep);
+
   if (currentStep < captions.length) {
     // Update caption
     caption.textContent = captions[currentStep];
-​
+    console.log('Caption updated:', captions[currentStep]);
+
     // Update image
-    image.src = `storyassets/images/image-${currentStep + 1}.jpg`;
-​
+    const newSrc = `storyassets/images/image-${currentStep + 1}.jpg`;
+    image.src = newSrc;
+    console.log('Image src updated to:', newSrc);
+
     // Update progress dots
     updateProgress(currentStep);
+  } else {
+    console.log('No more steps.');
   }
 });
 ​
