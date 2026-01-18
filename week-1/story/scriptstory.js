@@ -13,7 +13,7 @@ const captions = [
 ];
 ​
 // Track current step
-let currentStep = 0;
+let currentStep = 1;
 ​
 // Listen for clicks
 
