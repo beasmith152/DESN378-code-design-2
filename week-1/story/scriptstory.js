@@ -11,7 +11,7 @@ const captions = [
   "Chapter 5: The resolution..."
 ];
 // Track current step
-let currentStep = 1;
+let currentStep = 0;
 // Listen for clicks
 image.addEventListener('click', function() {
   currentStep++;
