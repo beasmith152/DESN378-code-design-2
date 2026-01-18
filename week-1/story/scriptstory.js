@@ -1,7 +1,6 @@
 // Find elements
 const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
-​
 // Story content
 const captions = [
   "Click the image to begin...",
@@ -11,10 +10,8 @@ const captions = [
   "Chapter 4: The turning point...",
   "Chapter 5: The resolution..."
 ];
-​
 // Track current step
 let currentStep = 1;
-​
 // Listen for clicks
 
 image.addEventListener('click', function() {
@@ -37,7 +34,6 @@ image.addEventListener('click', function() {
     console.log('No more steps.');
   }
 });
-​
 function updateProgress(step) {
   const dots = document.querySelectorAll('.dot');
   dots.forEach((dot, index) => {
