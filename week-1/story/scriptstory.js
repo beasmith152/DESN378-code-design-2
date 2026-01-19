@@ -29,7 +29,7 @@ image.addEventListener('click', function() {
   } else {
     console.log('No more steps.');
   }
-  if (currentStep >= 5) {
+  if (currentStep > 5) {
     currentStep = 0; // Reset to beginning
     image.src = 'storyassets/images/bg.jpg';
   }
