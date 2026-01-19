@@ -1,6 +1,7 @@
 // Find elements
 const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
+const title = document.querySelector('.title h1');
 // Story content
 const captions = [
   "We're all just powerless bystanders right? At least until the consequences are felt.",
@@ -20,6 +21,7 @@ image.addEventListener('click', function() {
     // Update caption
     caption.textContent = captions[currentStep];
     console.log('Caption updated:', captions[currentStep]);
+    title.textContent = ""; // Clear title after first click
     // Update image
     const newSrc = `storyassets/images/image-${currentStep}.jpg`;
     image.src = newSrc;
@@ -33,6 +35,7 @@ image.addEventListener('click', function() {
     currentStep = 0; // Reset to beginning
     image.src = 'storyassets/images/bg2.jpg';
     caption.textContent = captions[0];
+    title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);
     console.log('Story reset to beginning.');
   }
