@@ -3,12 +3,12 @@ const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
 // Story content
 const captions = [
-  "Click the image to begin...",
-  "Chapter 1: The beginning...",
-  "Chapter 2: The journey...",
-  "Chapter 3: The challenge...",
-  "Chapter 4: The turning point...",
-  "Chapter 5: The resolution..."
+  "We're all just powerless bystanders right? At least until the consequences are felt.",
+  "Indian Removal Act of 1830... Trail of Tears... Thousands died on forced marches to Oklahoma. Can't blame the people.",
+  "Crystal Nacht, November 9-10, 1938... Soldiers were just following orders. It's too bad for the Jewish.",
+  "It's all Hitler's fault. Can't blame the people. Democracy is messy.",
+  "I.C.E raids... Families torn apart. Just following orders, right? People dying. Just a consequence of safety.",
+  "It's all Trump's fault. Can't blame the people. Democracy is messy."
 ];
 // Track current step
 let currentStep = 0;
