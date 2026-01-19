@@ -71,7 +71,7 @@ image.addEventListener('click', function() {
 
 // Show button only when title is clicked on 6th slide
 title.addEventListener('click', function() {
-  if (currentStep > 5) {
+  if (title.textContent === "Want to try again?") {
     endButton.style.display = "block";
   } else {
     endButton.style.display = "none";
