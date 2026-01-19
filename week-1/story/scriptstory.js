@@ -1,6 +1,7 @@
 // Find elements
 const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
+const storyTitle = document.querySelector('#story-title');
 const title = document.querySelector('.title h1');
 
 // Create the button but don't add to DOM yet
@@ -22,6 +23,16 @@ document.body.appendChild(endButton);
 let currentStep = 0;
 // Hide caption initially
 caption.style.display = "none";
+storyTitle.style.display = "none";
+
+const storyTitles = [
+  "Present",
+  "1830 - Indian Removal Act",
+  "1938 - Kristallnacht",
+  "Hitler's Rise",
+  "2025 - I.C.E Raids",
+  "Trump's America"
+];
 // Story content
 const captions = [
   "We're all just powerless bystanders right? At least until the consequences are felt. Click the title.",
@@ -39,14 +50,17 @@ image.addEventListener('click', function() {
   // Hide caption if currentStep is 0, show otherwise
   if (currentStep === 0) {
     caption.style.display = "none";
+    storyTitle.style.display = "none";
     endButton.style.display = "none";
   } else {
     caption.style.display = "";
+    storyTitle.style.display = "";
   }
 
   if (currentStep > 0 && captions.length) {
     // Update caption
     caption.textContent = captions[currentStep];
+    storyTitle.textContent = storyTitles[currentStep];
     console.log('Caption updated:', captions[currentStep]);
     title.textContent = ""; // Clear title after first click
     // Update image
@@ -63,6 +77,7 @@ image.addEventListener('click', function() {
   if (currentStep > 5) {
     currentStep = 0; // Reset to beginning
     image.src = 'storyassets/images/bg2.jpg';
+    storyTitle.textContent = storyTitles[0];
     caption.textContent = captions[0];
     title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);

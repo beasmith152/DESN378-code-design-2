@@ -40,10 +40,28 @@ html, body {
     align-items: center;
     object-fit: cover;
 }
+#story-title{
+    position: absolute;
+    justify-content: center;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:22.5%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Bebas Neue", sans-serif;
+    text-align:left;
+    z-index: 2;
+}
 #story-caption{
     position: absolute;
     justify-content: center;
-    top: 20px;
+    top: 30px;
     left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     width:22.5%;
