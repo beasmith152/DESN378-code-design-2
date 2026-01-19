@@ -28,11 +28,21 @@ html, body {
     position: absolute;
     top: 20px;
     right: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width:45%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    z-index: 2;
+}
+.story-text p{
     font-size: 3em;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    z-index: 2;
     font-family: "Bebas Neue", sans-serif;
+    width:40%;
+    text-align:left;
 }
 .dot {
   width: 16px;
