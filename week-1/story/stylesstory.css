@@ -5,6 +5,12 @@ html, body {
   padding: 0;
   overflow: hidden;
 }
+.story-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}   
 .story-container img{
     width: 100vw;
     height: 100vh;
