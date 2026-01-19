@@ -18,8 +18,13 @@ endButton.style.borderRadius = "10px";
 endButton.style.zIndex = "10";
 document.body.appendChild(endButton);
 
+// Play background music
 const music = document.getElementById('bg-music');
-music.volume = 1.0; // Set volume (0.0 to 1.0)
+function playMusic() {
+  if (music.paused) {
+    music.play();
+  }
+}
 
 // Track current step
 let currentStep = 0;
