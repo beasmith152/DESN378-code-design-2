@@ -35,15 +35,12 @@ html, body {
     padding: 15px;
     border-radius: 10px;
     display: flex;
-    z-index: 2;
-}
-
-.story-text p{
     font-size: 2em;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-family: "Bebas Neue", sans-serif;
     text-align:left;
+    z-index: 2;
 }
 .dot {
   width: 16px;
