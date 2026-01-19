@@ -5,7 +5,7 @@ const title = document.querySelector('.title h1');
 // Track current step
 let currentStep = 0;
 // Story content
-caption.addEventListener('DOMContentLoaded', () => {
+caption.addEventListener(function() {
   if (currentStep === 0) {
     caption.style.display = "none";
   } else{
