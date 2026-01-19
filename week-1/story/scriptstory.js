@@ -31,6 +31,7 @@ image.addEventListener('click', function() {
   }
   if (currentStep >= 5) {
     currentStep = 0; // Reset to beginning
+    image.src = 'storyassets/images/bg.jpg';
   }
 });
 function updateProgress(step) {
