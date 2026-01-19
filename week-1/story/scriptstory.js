@@ -26,9 +26,11 @@ image.addEventListener('click', function() {
     console.log('Image src updated to:', newSrc);
     // Update progress dots
     updateProgress(currentStep);
-    currentStep = 0;
   } else {
     console.log('No more steps.');
+  }
+  if (currentStep >= 6) {
+    currentStep = 0; // Reset to beginning
   }
 });
 function updateProgress(step) {
