@@ -13,3 +13,13 @@ html, body {
     align-items: center;
     object-fit: cover;
 }
+.story-text{
+    position: absolute;
+    top: 20px;
+    right: 30px
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 2;
+}
