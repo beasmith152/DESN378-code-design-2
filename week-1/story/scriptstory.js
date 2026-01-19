@@ -4,6 +4,8 @@ const caption = document.querySelector('#story-caption');
 const title = document.querySelector('.title h1');
 // Track current step
 let currentStep = 0;
+// Hide caption initially
+caption.style.display = "none";
 // Story content
 const captions = [
   "We're all just powerless bystanders right? At least until the consequences are felt.",
@@ -17,6 +19,14 @@ const captions = [
 image.addEventListener('click', function() {
   currentStep++;
   console.log('Image clicked. Current step:', currentStep);
+
+  // Hide caption if currentStep is 0, show otherwise
+  if (currentStep === 0) {
+    caption.style.display = "none";
+  } else {
+    caption.style.display = "";
+  }
+
   if (currentStep > 0 && captions.length) {
     // Update caption
     caption.textContent = captions[currentStep];
@@ -37,6 +47,7 @@ image.addEventListener('click', function() {
     caption.textContent = captions[0];
     title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);
+    caption.style.display = "none";
     console.log('Story reset to beginning.');
   }
 });
