@@ -25,6 +25,8 @@ function playMusic() {
     music.play();
   }
 }
+image.addEventListener('click', playMusic);
+title.addEventListener('click', playMusic);
 
 // Track current step
 let currentStep = 0;
