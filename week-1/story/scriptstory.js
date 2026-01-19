@@ -54,11 +54,7 @@ image.addEventListener('click', function() {
     // Update progress dots
     updateProgress(currentStep);
     // Hide button unless on 6th slide
-    if (currentStep === 6) {
-      endButton.style.display = "block";
-    } else {
-      endButton.style.display = "none";
-    }
+   
   } else {
     console.log('No more steps.');
   }
@@ -69,7 +65,6 @@ image.addEventListener('click', function() {
     title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);
     caption.style.display = "none";
-    endButton.style.display = "none";
     console.log('Story reset to beginning.');
   }
 });
@@ -78,6 +73,8 @@ image.addEventListener('click', function() {
 title.addEventListener('click', function() {
   if (currentStep > 5) {
     endButton.style.display = "block";
+  } else {
+    endButton.style.display = "none";
   }
 });
 function updateProgress(step) {
