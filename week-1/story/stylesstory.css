@@ -5,6 +5,11 @@ html, body {
   padding: 0;
   overflow: hidden;
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .story-container{
     position: relative;
     width: 100vw;
@@ -23,8 +28,18 @@ html, body {
     position: absolute;
     top: 20px;
     right: 30px;
-    font-size: 2em;
+    font-size: 3em;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    z-index: 2;
+    font-family: "Bebas Neue", sans-serif;
+}
+.story-progress{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
     z-index: 2;
 }
