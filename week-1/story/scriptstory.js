@@ -30,7 +30,7 @@ image.addEventListener('click', function() {
     console.log('No more steps.');
   }
   if (currentStep >= 6) {
-    currentStep = 0; // Reset to beginning
+    currentStep = 1; // Reset to beginning
   }
 });
 function updateProgress(step) {
