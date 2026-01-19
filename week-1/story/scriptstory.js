@@ -19,7 +19,7 @@ endButton.style.zIndex = "10";
 document.body.appendChild(endButton);
 
 const music = document.getElementById('bg-music');
-music.volume = 0.5; // Set volume (0.0 to 1.0)
+music.volume = 1.0; // Set volume (0.0 to 1.0)
 
 // Track current step
 let currentStep = 0;
