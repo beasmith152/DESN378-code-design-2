@@ -32,6 +32,9 @@ image.addEventListener('click', function() {
   if (currentStep > 5) {
     currentStep = 0; // Reset to beginning
     image.src = 'storyassets/images/bg.jpg';
+    caption.textContent = captions[0];
+    updateProgress(currentStep);
+    console.log('Story reset to beginning.');
   }
 });
 function updateProgress(step) {
