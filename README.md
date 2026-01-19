@@ -87,7 +87,25 @@ Nothing.
 ​
 
 ### Week 1: Systems That Respond
-*Coming soon...*
+Week 1: Systems That respond
+SUMMARY: This file/exercise does two things:
+
+The image story was a review of the other week, we ended up adding more than one dynamic element for the project to make a single page interactive story with more options.​​
+
+What Was Hard
+I started with the boilerplate, and wanted to add more features, therefore finding the repeat number in console when the story would repeat and when and where to hide certain features.​​
+
+How I Used AI
+At one point, I did ask co-pilot why my captions were not hiding even when I had >5; however, I realized it needed more parameters.​​
+
+What's Still Unclear
+Nothing.​​
+
+Work Completed (Week 1)
+​Build
+
+[✅] Portfolio Migration
+[✅] Story Teller​
 
 ### Week 2: Remembering Choices
 *Coming soon...*
