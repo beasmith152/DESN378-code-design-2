@@ -16,6 +16,8 @@ endButton.style.padding = "10px 30px";
 endButton.style.borderRadius = "10px";
 endButton.style.zIndex = "10";
 document.body.appendChild(endButton);
+
+
 // Track current step
 let currentStep = 0;
 // Hide caption initially
@@ -75,6 +77,17 @@ title.addEventListener('click', function() {
   } else {
     endButton.style.display = "none";
   }
+});
+// Reset story when endButton is clicked
+endButton.addEventListener('click', function() {
+  currentStep = 0;
+  image.src = 'storyassets/images/bg.jpg';
+  caption.textContent = captions[0];
+  title.textContent = "Inevitable";
+  updateProgress(currentStep);
+  caption.style.display = "none";
+  endButton.style.display = "none";
+  console.log('Story reset to beginning by button.');
 });
 function updateProgress(step) {
   const dots = document.querySelectorAll('.dot');
