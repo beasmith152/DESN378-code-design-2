@@ -45,10 +45,9 @@ html, body {
     justify-content: center;
     top: 10px;
     left: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    width:22.5%;
+    width:25%;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     display: flex;
     font-size: 2em;
@@ -61,7 +60,7 @@ html, body {
 #story-caption{
     position: absolute;
     justify-content: center;
-    top: 30px;
+    top: 5em;
     left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     width:22.5%;
