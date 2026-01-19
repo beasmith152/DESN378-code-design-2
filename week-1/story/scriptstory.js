@@ -5,7 +5,7 @@ const title = document.querySelector('.title h1');
 
 // Create the button but don't add to DOM yet
 const endButton = document.createElement('button');
-endButton.textContent = "Continue";
+endButton.textContent = "Yes, I want to try again.";
 endButton.style.display = "none";
 endButton.style.position = "absolute";
 endButton.style.top = "60%";
@@ -22,7 +22,7 @@ let currentStep = 0;
 caption.style.display = "none";
 // Story content
 const captions = [
-  "We're all just powerless bystanders right? At least until the consequences are felt.",
+  "We're all just powerless bystanders right? At least until the consequences are felt. Click the title.",
   "Indian Removal Act of 1830... Trail of Tears... Thousands died on forced marches to Oklahoma. Can't blame the people.",
   "Crystal Nacht, November 9-10, 1938... Soldiers were just following orders. It's too bad for the Jewish.",
   "It's all Hitler's fault. Can't blame the people. Democracy is messy.",
@@ -64,7 +64,6 @@ image.addEventListener('click', function() {
     caption.textContent = captions[0];
     title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);
-    caption.style.display = "none";
     console.log('Story reset to beginning.');
   }
 });
