@@ -80,6 +80,7 @@ title.addEventListener('click', function() {
 });
 // Reset story when endButton is clicked
 endButton.addEventListener('click', function() {
+  alert("You can't change the past. You're here now. Do Something different this time. Don't let history repeat itself. ");
   currentStep = 0;
   image.src = 'storyassets/images/bg.jpg';
   caption.textContent = captions[0];
