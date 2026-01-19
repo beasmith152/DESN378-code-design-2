@@ -4,7 +4,7 @@ const caption = document.querySelector('#story-caption');
 const title = document.querySelector('.title h1');
 // Story content
 const captions = [
-  "We're all just powerless bystanders right? At least until the consequences are felt.",
+  ""
   "Indian Removal Act of 1830... Trail of Tears... Thousands died on forced marches to Oklahoma. Can't blame the people.",
   "Crystal Nacht, November 9-10, 1938... Soldiers were just following orders. It's too bad for the Jewish.",
   "It's all Hitler's fault. Can't blame the people. Democracy is messy.",
