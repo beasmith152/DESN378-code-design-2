@@ -17,6 +17,11 @@ let currentStep = 0;
 image.addEventListener('click', function() {
   currentStep++;
   console.log('Image clicked. Current step:', currentStep);
+  if (currentStep === 0) {
+    caption.style.display = "none";
+  } else{
+    caption.style.display = "";
+  }
   if (currentStep > 0 && captions.length) {
     // Update caption
     caption.textContent = captions[currentStep];
