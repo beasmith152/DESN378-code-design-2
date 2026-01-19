@@ -2,6 +2,20 @@
 const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
 const title = document.querySelector('.title h1');
+
+// Create the button but don't add to DOM yet
+const endButton = document.createElement('button');
+endButton.textContent = "Continue";
+endButton.style.display = "none";
+endButton.style.position = "absolute";
+endButton.style.top = "60%";
+endButton.style.left = "50%";
+endButton.style.transform = "translate(-50%, -50%)";
+endButton.style.fontSize = "2em";
+endButton.style.padding = "10px 30px";
+endButton.style.borderRadius = "10px";
+endButton.style.zIndex = "10";
+document.body.appendChild(endButton);
 // Track current step
 let currentStep = 0;
 // Hide caption initially
@@ -23,6 +37,7 @@ image.addEventListener('click', function() {
   // Hide caption if currentStep is 0, show otherwise
   if (currentStep === 0) {
     caption.style.display = "none";
+    endButton.style.display = "none";
   } else {
     caption.style.display = "";
   }
@@ -38,6 +53,12 @@ image.addEventListener('click', function() {
     console.log('Image src updated to:', newSrc);
     // Update progress dots
     updateProgress(currentStep);
+    // Hide button unless on 6th slide
+    if (currentStep === 5) {
+      endButton.style.display = "block";
+    } else {
+      endButton.style.display = "none";
+    }
   } else {
     console.log('No more steps.');
   }
@@ -48,7 +69,21 @@ image.addEventListener('click', function() {
     title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);
     caption.style.display = "none";
+    endButton.style.display = "none";
     console.log('Story reset to beginning.');
+  }
+});
+
+// Show button only when title is clicked on 6th slide
+title.addEventListener('click', function() {
+  if (currentStep === 5) {
+    endButton.style.display = "block";
+  }
+});
+title.addEventListener('click', function() {
+  if (currentStep > 5){
+    currentStep = 0; // Reset to beginning
+    endButton.style.display = "block";
   }
 });
 function updateProgress(step) {
