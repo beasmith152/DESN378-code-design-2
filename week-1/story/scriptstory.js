@@ -2,26 +2,28 @@
 const image = document.querySelector('.story-image img');
 const caption = document.querySelector('#story-caption');
 const title = document.querySelector('.title h1');
+// Track current step
+let currentStep = 0;
 // Story content
+caption.addEventListener('DOMContentLoaded', () => {
+  if (currentStep === 0) {
+    caption.style.display = "none";
+  } else{
+    caption.style.display = "";
+  }
+});
 const captions = [
-  "",
+  "We're all just powerless bystanders right? At least until the consequences are felt.",
   "Indian Removal Act of 1830... Trail of Tears... Thousands died on forced marches to Oklahoma. Can't blame the people.",
   "Crystal Nacht, November 9-10, 1938... Soldiers were just following orders. It's too bad for the Jewish.",
   "It's all Hitler's fault. Can't blame the people. Democracy is messy.",
   "I.C.E raids... Families torn apart. Just following orders, right? People dying. Just a consequence of safety.",
   "It's all Trump's fault. Can't blame the people. Democracy is messy."
 ];
-// Track current step
-let currentStep = 0;
 // Listen for clicks
 image.addEventListener('click', function() {
   currentStep++;
   console.log('Image clicked. Current step:', currentStep);
-  if (currentStep === 0) {
-    caption.style.display = "none";
-  } else{
-    caption.style.display = "";
-  }
   if (currentStep > 0 && captions.length) {
     // Update caption
     caption.textContent = captions[currentStep];
