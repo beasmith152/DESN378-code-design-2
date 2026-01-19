@@ -4,14 +4,8 @@ const caption = document.querySelector('#story-caption');
 const title = document.querySelector('.title h1');
 // Track current step
 let currentStep = 0;
-// Story content
-caption.addEventListener(function() {
-  if (currentStep === 0) {
-    caption.style.display = "none";
-  } else{
-    caption.style.display = "";
-  }
-});
+// Hide caption initially
+caption.style.display = "none";
 const captions = [
   "We're all just powerless bystanders right? At least until the consequences are felt.",
   "Indian Removal Act of 1830... Trail of Tears... Thousands died on forced marches to Oklahoma. Can't blame the people.",
@@ -21,9 +15,16 @@ const captions = [
   "It's all Trump's fault. Can't blame the people. Democracy is messy."
 ];
 // Listen for clicks
-image.addEventListener('click', function() {
   currentStep++;
   console.log('Image clicked. Current step:', currentStep);
+
+  // Hide caption if currentStep is 0, show otherwise
+  if (currentStep === 0) {
+    caption.style.display = "none";
+  } else {
+    caption.style.display = "flex";
+  }
+
   if (currentStep > 0 && captions.length) {
     // Update caption
     caption.textContent = captions[currentStep];
@@ -44,9 +45,10 @@ image.addEventListener('click', function() {
     caption.textContent = captions[0];
     title.textContent = "Want to try again?"; // Reset title when story resets
     updateProgress(currentStep);
+    caption.style.display = "none";
     console.log('Story reset to beginning.');
   }
-});
+
 function updateProgress(step) {
   const dots = document.querySelectorAll('.dot');
   dots.forEach((dot, index) => {
