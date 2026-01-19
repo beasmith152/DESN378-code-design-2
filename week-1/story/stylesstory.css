@@ -46,12 +46,12 @@ html, body {
     top: 20px;
     left: 10px;
     background-color: rgba(0, 0, 0, 0.7);
-    width:30%;
+    width:22.5%;
     height: auto;
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-family: "Varela Round", sans-serif;
