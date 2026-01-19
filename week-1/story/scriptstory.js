@@ -54,7 +54,7 @@ image.addEventListener('click', function() {
     // Update progress dots
     updateProgress(currentStep);
     // Hide button unless on 6th slide
-    if (currentStep === 5) {
+    if (currentStep === 6) {
       endButton.style.display = "block";
     } else {
       endButton.style.display = "none";
@@ -76,13 +76,7 @@ image.addEventListener('click', function() {
 
 // Show button only when title is clicked on 6th slide
 title.addEventListener('click', function() {
-  if (currentStep === 5) {
-    endButton.style.display = "block";
-  }
-});
-title.addEventListener('click', function() {
-  if (currentStep > 5){
-    currentStep = 0; // Reset to beginning
+  if (currentStep > 5) {
     endButton.style.display = "block";
   }
 });
