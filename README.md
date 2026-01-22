@@ -102,10 +102,23 @@ What's Still Unclear
 Nothing.​​
 
 Work Completed (Week 1)
-​Build
 
-[✅] Portfolio Migration
-[✅] Story Teller​
+**Engage**
+- [✅ ] VS Code Theme Setup
+
+**Learn**
+- [ ✅] Codedex.io Variables
+- [✅ ] HTML Academy 
+
+**Practice**
+- [✅ ] The Story Teller
+
+**Build**
+- [✅ ] Portfolio Migration
+- [✅ ] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [✅] Visual Notes: Week 1---​
 
 ### Week 2: Remembering Choices
 *Coming soon...*
