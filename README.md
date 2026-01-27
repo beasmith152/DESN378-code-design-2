@@ -92,13 +92,13 @@ SUMMARY: This file/exercise does two things:
 
 The image story was a review of the other week, we ended up adding more than one dynamic element for the project to make a single page interactive story with more options.​​
 
-What Was Hard
+### What Was Hard
 I started with the boilerplate, and wanted to add more features, therefore finding the repeat number in console when the story would repeat and when and where to hide certain features.​​
 
-How I Used AI
+### How I Used AI
 At one point, I did ask co-pilot why my captions were not hiding even when I had >5; however, I realized it needed more parameters.​​
 
-What's Still Unclear
+### What's Still Unclear
 Nothing.​​
 
 Work Completed (Week 1)
@@ -121,7 +121,25 @@ Work Completed (Week 1)
 - [✅] Visual Notes: Week 1---​
 
 ### Week 2: Remembering Choices
-*Coming soon...*
+
+## Week 2
+​
+### What I Learned
+I learned more about Figma's prototyping through creating variables in their system. Similar to how it would work functionally on the web.
+​
+​
+### What Was Hard
+Nothing was too difficult.
+​
+​
+### How I Used AI
+I only used AI, in reference to help me remember a call in one of the codex assignments.
+​
+​
+### What's Still Unclear
+Nothing.
+​
+​
 
 ---
 
