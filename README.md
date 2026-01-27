@@ -38,6 +38,7 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 |---|---------|-------|--------|
 | 0 | Behavioral Layer | Tutorial on Image, plus name switch | ✅ |
 | 1 | The System | Design tokens + theme switching | ✅ |
+| 2 | Design Systems | Design tokens + Figma | ✅ |
 
 ---
 
@@ -85,6 +86,7 @@ Nothing.
 - [✅] The Setup
 - [✅] The Behavioral Layer
 ​
+---
 
 ### Week 1: Systems That Respond
 Week 1: Systems That respond
