@@ -160,5 +160,22 @@ Nothing.
 - **Animation:** GSAP (coming Week 5)
 
 ---
+## Week 6 & 7
+​
+### What I Learned
+I learned about creating scalable graphics named SVG's within HTML and the javascript plugins like GSAP that allow for timeline based animations that can be further edited to become controlled through different modes such as scrolling etc.
+​
+​
+### What Was Hard
+The concepts themselves were not difficult. The more complicated part was in regards to codepen and getting the plugins to function there properly.
+​
+​
+### How I Used AI
+I used AI in the specific assignment where it was asked too; outside of that I used AI as a debugging tool to teach me where I went wrong. 
+​
+​
+### What's Still Unclear
+Nothing at the moment. 
+​
 
 *This README will evolve. At quarter's end, it transforms into a portfolio landing page.*
